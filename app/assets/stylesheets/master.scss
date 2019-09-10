@@ -1,0 +1,32 @@
+@import "bootstrap";
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  background-color: #E2E4C9;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 75px;
+  color: #44126F;
+  text-align: center;
+}
+
+h2 {
+  color: #104F86;
+}
+
+h3 {
+  color: #581D3E;
+}
+
+.contact_info {
+  text-align: center;
+}

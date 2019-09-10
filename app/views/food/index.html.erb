@@ -1,1 +1,13 @@
-<h1>Welcome to Food Kingdom</h1>
+<%= will_paginate @food, previous_label: h("< Prevopis"), next_label: h("Next >") %>
+
+<div class="heading">Welcome to Food Kindfom</div>
+
+<div class="contact_info">If you wish to know more, feel free send an email to: mirongzou@gmail.com</div>
+
+<% @food.each do |food| %>
+  <div class="booyah-box col-10 offset-1">
+    <h2><%= food.item %></h1>
+    <h3>- <%= food.category %></h2><br />
+  </div>
+
+<% end %>
