@@ -1,19 +1,18 @@
-<%= will_paginate @food, previous_label: h("< Prevopis"), next_label: h("Next >") %>
+<%= will_paginate @foods, previous_label: h("< Prevopis"), next_label: h("Next >") %>
 
 <div class="heading">Welcome to Food Kindfom</div>
 
 <div class="contact_info">If you wish to know more, feel free send an email to: mirongzou@gmail.com</div>
 
 <div class="add_new">
-  <%= link_to 'New Food', new_food_path %>
+  <%= link_to 'Add New Food', new_foods_path, class="button" %>
 </div>
 
 <% @food.each do |food| %>
-  <div class="booyah-box col-5 offset-2">
+  <div class="booyah-box col-5 offset-1">
     <h2><%= food.item %></h1>
     <h3>- <%= food.category %></h2><br />
   </div>
 
 
 <% end %>
-

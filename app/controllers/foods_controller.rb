@@ -1,4 +1,4 @@
-class FoodController < ApplicationController
+class FoodsController < ApplicationController
   def index
     @food = Food.paginate(page: params[:page], per_page: 10)
   end
