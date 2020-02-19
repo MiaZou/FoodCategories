@@ -1,24 +1,3 @@
-# README
+# Food Categories
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Small web application which users are able to enter food and its category (such as protein, carbohydrate, fruit, vegetable, or dairy).
